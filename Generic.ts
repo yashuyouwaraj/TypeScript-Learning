@@ -89,5 +89,3 @@ class Box<T>{
 
 const numberBox = new Box<number>(100);
 console.log(numberBox.getContent());
-numberBox.setContent(200);
-console.log(numberBox.getContent());
